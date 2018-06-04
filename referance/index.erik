@@ -1,0 +1,121 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Graphic design quotes</title>
+
+<link href="css/thimble.css" rel="stylesheet" type="text/css">
+<link href="css/animate.css" rel="stylesheet" type="text/css">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+ <script type="text/javascript" src="js/sticky_kit.js"></script>
+ <!--wow animatons-->
+   <script src="js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
+</head>
+
+<body>
+  <!-- quote one here -->
+<div class="container orange">
+<div class="row">
+<div class="cell center pull"><img class="rellax" data-rellax-speed="3" src="http://placekitten.com/g/315/465"/></div>
+<div class="cell center push"><img class="rellax" data-rellax-speed="-3" src="http://placekitten.com/g/315/465"/></div>
+<h1 class="absolute">Great quotes by <br/> <span class="name">top graphic designers</span></h1></div>
+<hr class="vert_stripe"/>
+</div>
+<div class="container tan border_btm">
+<div class="row">
+<div class="cell two">
+
+	<nav><ul><li><a id="logo" href="#"><img src="img/logo.png" width="50px" height="50px" alt=""/></a></li><li><a href="#">Why</a></li>
+	<li><a href="#">How</a></li>
+	<li><a href="#">What</a></li>
+	</ul></nav>
+	</div>
+	<div class="cell eight center"><h2>What we Do</h2>
+
+
+	<p>Here we will write super lovely copy that’s inspiring and introduces the readers to the collective.</p></div>
+
+	<div class="cell two">
+	<a id="shop" href="#">Shop</a>
+</div>
+</div>
+</div>
+	<div class="container tan border_btm">
+	<div class="row"><div class="cell center"><h2 class="sticky">How We Work</h2>
+	<img src="http://placekitten.com/g/800/1200"/>
+	</div></div>
+	 <a class="button right" href="#">More</a></div>
+
+	<div class="container tan border_btm"><h2>Why We Do It</h2>
+	<div class="row">
+	<div class="cell center wow fadeInLeft" data-wow-offset="400"><img src="http://placekitten.com/g/315/465"/></div>
+	<div class="cell center"><p>“We will include quotes from women who work in the collective that explain how the collective has changed their lives.”</p></div>
+	</div>
+	<div class="row">
+	<div class="cell center"><p>“We will include quotes from women who work in the collective that explain how the collective has changed their lives.”</p></div>
+	<div class="cell center wow fadeInRight" data-wow-offset="400"><img  src="http://placekitten.com/g/315/465"/></div>
+	</div>
+	<div class="row border_lft">
+	<div class="cell center"><img src="http://placekitten.com/g/315/465"/></div>
+	<div class="cell center"><p>“We will include quotes from women who work in the collective that explain how the collective has changed their lives.”</p></div>
+	</div>
+
+	<a class="button right" href="#">More</a></div>
+	<div class="container tan border_btm">
+
+	<div class="row">
+	<div class="cell"><h2>Featured Products</h2></div></div>
+	<div class="row"><div class="cell center"><img src="http://placekitten.com/g/315/465"/> <p class="smaller">Erat mi est adipiscing vestibulum massa iaculis tristique duis non laoreet elementum ad consectetur sociosqu hac hac scelerisque lorem.</p>
+	<img class="pull_sm" src="http://placekitten.com/g/180/300"/>
+	<img class="push_sm" src="http://placekitten.com/g/180/300"/>
+	<p class="smaller"><span class="lead">Erat mi est</span> adipiscing vestibulum massa iaculis tristique duis non laoreet elementum ad consectetur sociosqu hac hac scelerisque lorem.<span class="price">$100</span></p>
+	<img src="http://placekitten.com/g/315/200"/>
+	<p class="smaller"><span class="lead">Erat mi est</span> adipiscing vestibulum massa iaculis tristique duis non laoreet elementum ad consectetur sociosqu hac hac scelerisque lorem.<span class="price">$100</span></p>
+	</div>
+	<div class="cell center"><img src="http://placekitten.com/g/315/465"/><p class="smaller"><span class="lead">Erat mi est</span> adipiscing vestibulum massa iaculis tristique duis non laoreet elementum ad consectetur sociosqu hac hac scelerisque lorem.<span class="price">$100</span></p>
+	<img src="http://placekitten.com/g/315/200"/><p class="smaller">Erat mi est adipiscing vestibulum massa iaculis tristique duis non laoreet elementum ad consectetur sociosqu hac hac scelerisque lorem.</p></div></div>
+	 </div>
+<div class="container tan border_btm"><h2>More Inspo</h2> </div>
+<div class="container orange" id="footer"><div class="row">
+	<div class="cell one"></div><div class="cell"><h3>Explore</h3>
+	<ul><li><a href="#">Contact</a></li>
+	<li><a href="#">Press</a></li>
+	<li><a href="#">Shipping</a></li>
+	<li><a href="#">Donate</a></li>
+	<li><a href="#">Careers</a></li>
+	<li><a href="#">Artisans</a></li>
+	</ul></div>
+	<div class="cell"><h3>Join US</h3>
+	<form><input id="email" type="email" placeholder="email"><input type="submit" id="submit"></form>
+	</div>
+	<div class="cell one"></div>
+	</div>
+	</div>
+
+<script type="text/javascript" src="js/rellax.js"></script>
+    <script>
+    	var rellax = new Rellax('.rellax', {
+        // center: true
+        callback: function(position) {
+            // callback every position change
+            console.log(position);
+        }
+      });
+    </script>
+
+
+<script type="text/javascript">
+
+$(".sticky").stick_in_parent({
+    offset_top: 20
+});
+
+
+
+	</script>
+</body>
+</html>
